@@ -1,0 +1,34 @@
+
+
+.bgimage {
+    height: 85vh;
+    width: 100%;
+    background: url("./src/images/KW_logos/Hot_Rice_9-WS.jpg");
+    background-size: cover;
+    object-fit: cover;
+    object-position: bottom;
+    position: relative; 
+}
+
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: left;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+
+@media screen and (max-width: 760px) {
+   .bgimage {
+       justify-content: center;
+       
+}
+ 
